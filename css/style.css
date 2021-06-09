@@ -8,6 +8,9 @@ body {
   background-color: #14131a;
   color: white;
   font-family: "Roboto", sans-serif;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* CONTAINER HEADER */
@@ -60,7 +63,43 @@ body {
 
 .film_description {
   max-width: 423px;
+  margin-bottom: 70px;
   font-size: 16px;
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button_text,
+.button_icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button_text {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+}
+
+.button_primary {
+  background-color: white;
+  color: #8d0019;
+}
+
+.button_link {
+  color: white;
+}
+
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
